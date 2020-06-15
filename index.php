@@ -121,7 +121,7 @@
                                 <ul class="navbar-nav ml-auto" id="nav">
                                     <?php 
                                         $labels = ['Головна', 'Задачі', 'Корисні ресурси', 'Мови', 'Олімпіади', 'Правила сайту', 'Зворотній зв`язок', 'Книги для навчання']
-                                        $links = ["#home", "#about", "#features", "#screenshot", "#pricing", "#team", "#contact", "books.php"]
+                                        $links = ['#home', '#about', '#features', '#screenshot', '#pricing', '#team', '#contact', 'books.php']
                                         for ($i=0; $i < count($labels); $i++) { 
                                     ?>
                                             <li class="nav-item active"><a class="nav-link" href="<?php echo $links[$i]; ?>"><?php echo $labels[$i]; ?></a></li>
