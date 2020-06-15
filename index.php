@@ -124,8 +124,9 @@
                                                 'Олімпіади', 'Правила сайту', 'Зворотній зв`язок', 'Книги для навчання']
                                         $links = ["#home", "#about", "#features", "#screenshot", "#pricing",
                                                 "#team", "#contact", "books.php"]
-                                        for ($i=0; $i < count($labels); $i++) { ?>
-                                            <li class="nav-item active"><a class="nav-link" href=<?php echo $links[$i]; ?>><?php echo $labels[$i]; ?></a></li>
+                                        for ($i=0; $i < count($labels); $i++) { 
+                                    ?>
+                                            <li class="nav-item active"><a class="nav-link" href="<?php echo $links[$i]; ?>"><?php echo $labels[$i]; ?></a></li>
                                        <?php } ?>
                                 </ul>
                                 <div class="sing-up-button d-lg-none">
