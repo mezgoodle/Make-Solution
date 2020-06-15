@@ -1,0 +1,41 @@
+.container-1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-2 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-3 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-1 div {
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+.container-2 div {
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+.container-3 div {
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+.box-1 {
+  flex: 2;
+}
+
+.box-2 {
+  flex: 1;
+}
+
+.box-3 {
+  flex: 1;
+}

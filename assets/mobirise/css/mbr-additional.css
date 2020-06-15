@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+#ext_menu-0 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-0 .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-0 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#form1-1 .mbr-header__text {
+  color: #ffffff;
+}
+#footer1-3 P {
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
